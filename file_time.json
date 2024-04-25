@@ -1,0 +1,18 @@
+{
+  "modelUri": "gpt://b1gbfk13ik380c1utfle/yandexgpt-pro",
+  "completionOptions": {
+    "stream": false,
+    "temperature": 0.6,
+    "maxTokens": "6000"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "text": "Существует таблица - table_test.  В ней есть столбцы: id - номер строки, name - название предприятия, ecm_code - уникальный код предприятия, sourse_code - код ресурса, value_kind - размер производства , update_interval - интервал между заменами делали, measure_kind - параметр расчета , deskription - описание, start_effective_data - дата начала производства товара, end_effective_data - дата окончания производства товара,  reality_kind - реальный объем производства , sourse_system - источники системы. На следующие вопросы выводи только SQL запросы к этой таблице. Вывод описания - запрещён."
+    }, 
+    { 
+      "role": "user",
+      "text": "Выведи уникальный код предприятия в строке 293" 
+    }
+  ]
+ }
