@@ -2,12 +2,13 @@ import requests
 import os
 import json
 from Connect_DB import connecting
+from Data import Api-key
 
 def gpt(text):
-    api_key = "AQVN1_rXLEPLPfKcWAV9dbxgF87CWYrqT2fzv9F5"
+    
 
     headers = {
-        'Authorization': f'Api-Key {api_key}',
+        'Authorization': f'Api-Key {Api_key}',
     }
 
     url = 'https://llm.api.cloud.yandex.net/foundationModels/v1/completion'
