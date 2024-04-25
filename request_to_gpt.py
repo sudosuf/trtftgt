@@ -2,7 +2,7 @@ import requests
 import os
 import json
 from Connect_DB import connecting
-from Data import Api-key
+from Data import Api_key
 
 def gpt(text):
     
